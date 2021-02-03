@@ -11,17 +11,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @NoArgsConstructor
 @Document
-
 public class Teacher {
 
     @Id
     private String idTeacher;
     private int yearsOfTeacher;
     private String nameTeacher;
-
-
-
-
 
 
 }
